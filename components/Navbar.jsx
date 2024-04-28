@@ -1,5 +1,5 @@
 import React from "react";
-import NavList from "./Navlist";
+import NavList from "./NavList";
 import MobileNav from "./MobileNav";
 import Image from "next/image";
 import Button from "./Button";
