@@ -6,7 +6,9 @@ import Posters from "@/components/Pages/Posters";
 import Schedule from "@/components/Pages/Schedule";
 import Speakers from "@/components/Pages/Speakers";
 import Tickets from "@/components/Pages/Tickets";
+import Footer from"@/components/Footer";
 import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -19,6 +21,7 @@ export default function Home() {
       {/* <Grid/> */}
       <Schedule/>
       <Posters/>
+      <Footer/>
     </div>
   );
 }
