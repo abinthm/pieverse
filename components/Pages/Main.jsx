@@ -8,11 +8,11 @@ const Main = () => {
     <section id="home" className={`h-screen w-full flex items-center justify-center px-4`}>
       <div className="flex flex-col items-center">
         <h1
-          className={`text-7xl md:text-9xl font-extrabold text-primary borderline ${poppins.className}`}
+          className={`text-[55px] md:text-9xl font-extrabold text-primary text-with-stroke mentra-font tracking-wide`}
         >
           PIEVERSE
         </h1>
-        <h2 className="flex flex-col sm:flex-row text-white text-2xl text-center">
+        <h2 className="flex flex-col sm:flex-row text-white text-2xl text-center mt-1">
           <span className="font-semibold">4 MAY 2024</span>
           <span className="max-sm:hidden mx-2">|</span>
           <span className="max-sm:text-sm">Providence College, Chengannur</span>

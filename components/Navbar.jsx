@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-between items-center px-4 sm:px-7 py-4 text-white bg-black/40 select-none fixed">
+    <div className="w-full flex justify-between items-center px-4 sm:px-7 py-4 text-white bg-black/40 select-none fixed z-50">
       <Image src={"/assets/logo/pie.png"} width={150} height={100} alt="..." />
       <div className="flex items-center gap-16 sm:pt-4">
         <NavList />

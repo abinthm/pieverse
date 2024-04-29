@@ -43,7 +43,7 @@ const MobileNav = () => {
           >
             <div className="flex flex-col py-6">
               <h1
-                className={`text-5xl ml-4 mt-2 font-extrabold text-secondary borderline ${poppins.className}`}
+                className={`text-4xl ml-4 mt-2 font-extrabold text-secondary borderline mentra-font tracking-wide borderline`}
               >
                 PIEVERSE
               </h1>
