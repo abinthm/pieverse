@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row items-center justify-between">
         <div className="flex flex-col max-sm:text-center max-sm:items-center pb-5 md:pb-0 md:mr-8">
         <h1
-          className={`text-2xl md:text-3xl font-extrabold text-primary mb-2 mentra-font tracking-wide`}
+          className={`text-2xl md:text-3xl font-extrabold text-primary stroke-black mb-2 mentra-font tracking-wide`}
         >
           PIEVERSE
         </h1>
@@ -52,8 +52,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center pt-6">
+      <div className="flex flex-col text-center pt-6">
         <h2 className="text-xs">© Copyright IEEE PIE KERALA SECTION. All Rights Reserved</h2>
+        <h2 className="text-xs mt-2">❤️ Design by <span className="font-semibold">GDSC PRC</span> Team</h2>
       </div>
     </footer> 
   );

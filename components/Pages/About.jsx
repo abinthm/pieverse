@@ -44,7 +44,7 @@ const About = () => {
             className="bg-white mt-4 rounded-xl"
           />
           <div className="mt-4 flex flex-col text-center">
-            <span>Procidence College</span>
+            <span>Providence College</span>
             <span>Chengannur, Alappuzha</span>
           </div>
           <hr className="w-2/3  my-2 border border-primary" />

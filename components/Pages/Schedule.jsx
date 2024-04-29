@@ -59,7 +59,7 @@ const Schedule = () => {
         <div className="w-full flex flex-col gap-5 md:px-16 lg:px-24 xl:px-32 mt-8">
             {
                 events.map((event,key)=>(
-                    <EventCard title={event.title} time={event.time} period={event.period} description={event.description} />
+                    <EventCard key={key} title={event.title} time={event.time} period={event.period} description={event.description} />
                 ))
             }
         </div>

@@ -23,13 +23,13 @@ export default function Home() {
         <Posters />
         <Footer/>
       </div>
-      <Image
+      {/* <Image
         src={"/assets/bg-overlay.png"}
         style={{ height: "100%", width: "100%" }}
         width={1000}
         height={800}
-        className="fixed top-0 mix-blend-overlay left-0 -z-10"
-      />
+        className="absolute top-0 mix-blend-overlay left-0 -z-10"
+      /> */}
     </div>
   );
 }

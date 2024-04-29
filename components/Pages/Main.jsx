@@ -1,6 +1,7 @@
 import { Poppins } from "next/font/google";
 import React from "react";
 import Button from "../Button";
+import Image from "next/image";
 const poppins = Poppins({ subsets: ["latin"], weight: "900" });
 
 const Main = () => {
@@ -34,6 +35,11 @@ const Main = () => {
           </svg>
           Grab Your Ticket
         </Button>
+        {/* <div className="flex items-center gap-2 mt-4">
+          <Image src={'/assets/organizers/pie.png'} width={200} height={150} />
+          <Image src={'/assets/organizers/ikyp.png'} width={200} height={150} />
+          <Image src={'/assets/organizers/gdsc.png'} width={50} height={30} />
+        </div> */}
       </div>
     </section>
   );
