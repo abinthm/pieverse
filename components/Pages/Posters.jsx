@@ -15,17 +15,18 @@ const Posters = () => {
   return (
     <section
       id="posters"
-      className="w-full h-auto p-4 py-8 md:p-10  flex "
+      className="w-full h-auto p-4 py-8 md:p-10  flex bg-black/50 mt-8 "
     >
-      <div className="w-full h-auto flex flex-col  items-center justify-center p-4 bg-violet-950/50">
-        <div className="p-6">
-          <h1 className="flex gap-2 items-center text-4xl font-bold text-white">
-           Posters
-          </h1>
+      <div className="w-full flex flex-col items-center">
+        <div className="flex flex-col items-center mb-4 md:mb-8">
+          <h1 className="text-white text-3xl md:text-4xl font-bold">GALLERY</h1>
+          <h2 className="text-zinc-400 font-semibold mt-2 text-xl">
+            Here are our event posters
+          </h2>
+          <hr className="border-2 border-primary w-24 mt-4" />
         </div>
         <div className="w-full h-auto">
-
-        <ReactCarousel images={images} />
+          <ReactCarousel images={images} />
         </div>
       </div>
     </section>

@@ -5,10 +5,10 @@ import Counter from "../Counter";
 const About = () => {
   return (
     <section id="about"
-      className="w-full h-max p-4 py-8 md:p-10 bg-black/50 flex "
+      className="w-full h-max p-4 py-8 md:p-10 xl:px-20 bg-black/50 flex "
     >
-      <div className="w-full flex flex-col md:flex-row max-sm:gap-5 text-white">
-        <div className="w-full md:w-1/3 flex flex-col">
+      <div className="w-full flex flex-col md:flex-row max-sm:gap-5 items-center justify-evenly text-white">
+        <div className="w-full flex flex-col">
           <h1 className="text-3xl">
             About <span className="text-primary font-extrabold">PIEVERSE</span>
           </h1>
@@ -20,7 +20,7 @@ const About = () => {
             workshops in 2 tracks - technical and entrepreneurship.
           </p>
         </div>
-        <div className="w-full md:w-1/3 flex flex-col items-center">
+        <div className="w-full flex flex-col items-center">
           <h1 className="flex items-center gap-2 font-bold text-3xl">
             {" "}
             <svg
@@ -49,7 +49,7 @@ const About = () => {
           </div>
           <hr className="w-2/3  my-2 border border-primary" />
         </div>
-        <div className="w-full md:w-1/3 flex flex-col items-center">
+        <div className="w-full flex flex-col items-center">
           <div className="flex flex-col gap-2 items-center">
             <h1 className="flex items-center gap-2 font-bold text-3xl">
               {" "}
