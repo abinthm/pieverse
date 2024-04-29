@@ -6,7 +6,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: "900" });
 
 const Main = () => {
   return (
-    <section id="home" className={`h-screen w-full flex items-center justify-center px-4`}>
+    <section id="home" className={`h-screen w-full flex items-center justify-center px-4 pt-8 md:pt-16`}>
       <div className="flex flex-col items-center">
         <h1
           className={`text-[55px] md:text-9xl font-extrabold text-primary text-with-stroke mentra-font tracking-wide`}

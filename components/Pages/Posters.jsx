@@ -14,7 +14,7 @@ const Posters = () => {
 
   return (
     <section
-      id="posters"
+      id="gallery"
       className="w-full h-auto p-4 py-8 md:p-10  flex bg-black/50 mt-8 "
     >
       <div className="w-full flex flex-col items-center">
