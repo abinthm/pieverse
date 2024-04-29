@@ -6,32 +6,36 @@ const Footer = () => {
   return (
     <footer className="container mx-auto px-4 sm:px-6 py-4 md:py-8 text-white bg-slate-950">
       <div className="flex flex-col md:flex-row items-center justify-between">
-        <div className="flex flex-col pb-5 md:pb-0 md:mr-8">
-          <h1 className="font-serif text-3xl select-none text-primary">PIEVERSE</h1>
+        <div className="flex flex-col max-sm:text-center max-sm:items-center pb-5 md:pb-0 md:mr-8">
+        <h1
+          className={`text-2xl md:text-3xl font-extrabold text-primary mb-2 mentra-font tracking-wide`}
+        >
+          PIEVERSE
+        </h1>
           <p>Providence college of Engineering</p>
           <p>Providence College Rd, Angadical South, Ala, Chengannur</p>
           <p>Kerala 689122</p>
           
-          <div className="flex flex-row justify-evenly items-center pt-3">
+          <div className="flex gap-4 items-center mt-3">
             <SocialIcon
               network="instagram"
               url=""
-              bgColor="#9B0000"
-              fgColor="white"
+              bgColor="#5E0976"
+              fgColor="#F7D63F"
               style={{ width: "40px", height: "40px" }}
             />
             <SocialIcon
               network="youtube"
               url=""
-              bgColor="#9B0000"
-              fgColor="white"
+              bgColor="#5E0976"
+              fgColor="#F7D63F"
               style={{ width: "40px", height: "40px" }}
             />
             <SocialIcon
               network="facebook"
               url=""
-              bgColor="#9B0000"
-              fgColor="white"
+              bgColor="#5E0976"
+              fgColor="#F7D63F"
               style={{ width: "40px", height: "40px" }}
             />
           </div>
@@ -49,7 +53,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center pt-6">
-        <h2 className="text-xs">© Copyright IEEE PIE KERALA SECTION.All Rights Reserved</h2>
+        <h2 className="text-xs">© Copyright IEEE PIE KERALA SECTION. All Rights Reserved</h2>
       </div>
     </footer> 
   );
