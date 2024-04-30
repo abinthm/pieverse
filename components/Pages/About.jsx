@@ -4,7 +4,8 @@ import Counter from "../Counter";
 
 const About = () => {
   return (
-    <section id="about"
+    <section
+      id="about"
       className="w-full h-max p-4 py-8 md:p-10 xl:px-20 bg-black/50 flex "
     >
       <div className="w-full flex flex-col md:flex-row max-sm:gap-5 items-center justify-evenly text-white">
@@ -38,7 +39,7 @@ const About = () => {
             Venue
           </h1>
           <Image
-            src={"/assets/location.png"}
+            src={"/assets/location.svg"}
             height={170}
             width={170}
             className="bg-white mt-4 rounded-xl"
