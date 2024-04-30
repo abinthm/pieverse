@@ -14,7 +14,7 @@ const About = () => {
             About <span className="text-primary font-extrabold">PIEVERSE</span>
           </h1>
           <p className="mt-4 max-sm:text-justify">
-            Pie-verse, the unseen version of pie is presented by IEEE Young
+            Pie-verse, the unseen version of PIE is presented by IEEE Young
             professionals Kerala section in collaboration with IEEE PIE Kerala
             section, IEEE SB PRC and GDSC PRC The event's main theme is 'To
             discover yourself'. The event will be having talks sessions, and
