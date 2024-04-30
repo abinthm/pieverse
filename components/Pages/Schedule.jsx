@@ -6,28 +6,40 @@ const Schedule = () => {
     const events = [
         {
             title: 'Registration',
-            description: 'You can register for the event',
+            description: 'Mark your trace and recieve the essentials',
             time: '8:30',
             period: 'AM'
         },
         {
             title: 'Inagruation',
-            description: 'You can register for the event',
+            description: 'Witness the official start of PIEVERSE',
             time: '9:30',
             period: 'AM'
         },
         {
             title: 'Ice Breaker',
-            description: 'You can register for the event',
-            time: '11:30',
+            description: 'Jump into it with loads of fun',
+            time: '11:00',
             period: 'AM'
         },
         {
+          title: 'Talk',
+          description: 'Have a blast with RJ Shambu',
+          time: '11:30',
+          period: 'AM'
+      },
+        {
             title: 'Workshop',
-            description: 'You can register for the event',
+            description: 'Level yourself up a notch in your chosen track',
             time: '1:30',
             period: 'PM'
         },
+        {
+          title: 'Feedback',
+          description: 'Partake through the end of an exhilarating day',
+          time: '4:15',
+          period: 'PM'
+      },
     ]
   return (
     <section
