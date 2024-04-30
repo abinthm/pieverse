@@ -7,7 +7,10 @@ const poppins = Poppins({ subsets: ["latin"], weight: "900" });
 
 const Main = () => {
   return (
-    <section id="home" className={`h-screen w-full flex items-center justify-center px-4 pt-8 md:pt-16`}>
+    <section
+      id="home"
+      className={`h-screen w-full flex items-center justify-center px-4 pt-8 md:pt-16`}
+    >
       <div className="flex flex-col items-center">
         <h1
           className={`text-[55px] md:text-9xl font-extrabold text-primary text-with-stroke mentra-font tracking-wide`}
@@ -19,7 +22,14 @@ const Main = () => {
           <span className="max-sm:hidden mx-2">|</span>
           <span className="max-sm:text-sm">Providence College, Chengannur</span>
         </h2>
-        <a className={cn('flex items-center gap-2 py-2 bg-primary text-secondary rounded-3xl font-bold hover:bg-primary/50 hover:text-white px-4 mt-4')} href="https://docs.google.com/forms/d/e/1FAIpQLScQihABsjtr_6ul80Fz2kPI3QWH7f8p2CZa7ZnnmL1qEjk22w/viewform">Grab Your Tickets</a>
+        <a
+          className={cn(
+            "flex items-center gap-2 py-2 bg-primary text-secondary rounded-3xl font-bold hover:bg-primary/50 hover:text-white px-4 mt-4"
+          )}
+          href="https://docs.google.com/forms/d/e/1FAIpQLScQihABsjtr_6ul80Fz2kPI3QWH7f8p2CZa7ZnnmL1qEjk22w/viewform"
+        >
+          Grab Your Tickets
+        </a>
         {/* <Button title={"Grab Your Ticket"} className={"px-4 mt-4"}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -37,10 +47,11 @@ const Main = () => {
           </svg>
           Grab Your Ticket
         </Button> */}
-        {/* <div className="flex items-center gap-2 mt-4">
-          <Image src={'/assets/organizers/pie.png'} width={200} height={150} />
-          <Image src={'/assets/organizers/ikyp.png'} width={200} height={150} />
-          <Image src={'/assets/organizers/gdsc.png'} width={50} height={30} />
+        {/* TODO: */}
+        {/* <div className="flex items-center gap-2 mt-4 bg-black/50">
+          <Image src={"/assets/organizers/pie.png"} width={200} height={150} />
+          <Image src={"/assets/organizers/ikyp.png"} width={200} height={150} />
+          <Image src={"/assets/organizers/gdsc.png"} width={200} height={150} />
         </div> */}
       </div>
     </section>

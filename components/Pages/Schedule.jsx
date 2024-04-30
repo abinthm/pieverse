@@ -2,45 +2,44 @@ import React from "react";
 import EventCard from "../EventCard";
 
 const Schedule = () => {
-
-    const events = [
-        {
-            title: 'Registration',
-            description: 'Mark your trace and recieve the essentials',
-            time: '8:30',
-            period: 'AM'
-        },
-        {
-            title: 'Inagruation',
-            description: 'Witness the official start of PIEVERSE',
-            time: '9:30',
-            period: 'AM'
-        },
-        {
-            title: 'Ice Breaker',
-            description: 'Jump into it with loads of fun',
-            time: '11:00',
-            period: 'AM'
-        },
-        {
-          title: 'Talk',
-          description: 'Have a blast with RJ Shambu',
-          time: '11:30',
-          period: 'AM'
-      },
-        {
-            title: 'Workshop',
-            description: 'Level yourself up a notch in your chosen track',
-            time: '1:30',
-            period: 'PM'
-        },
-        {
-          title: 'Feedback',
-          description: 'Partake through the end of an exhilarating day',
-          time: '4:15',
-          period: 'PM'
-      },
-    ]
+  const events = [
+    {
+      title: "Registration",
+      description: "Mark your trace and recieve the essentials",
+      time: "8:30",
+      period: "AM",
+    },
+    {
+      title: "Inaugruation",
+      description: "Witness the official start of PIEVERSE",
+      time: "9:30",
+      period: "AM",
+    },
+    {
+      title: "Ice Breaker",
+      description: "Jump into it with loads of fun",
+      time: "11:00",
+      period: "AM",
+    },
+    {
+      title: "Talk",
+      description: "Have a blast with RJ Shambu",
+      time: "11:30",
+      period: "AM",
+    },
+    {
+      title: "Workshop",
+      description: "Level yourself up a notch in your chosen track",
+      time: "1:30",
+      period: "PM",
+    },
+    {
+      title: "Feedback",
+      description: "Partake through the end of an exhilarating day",
+      time: "4:15",
+      period: "PM",
+    },
+  ];
   return (
     <section
       id="schedule"
@@ -69,11 +68,15 @@ const Schedule = () => {
         </h2>
         <hr className="border-2 border-primary w-24 mt-4" />
         <div className="w-full flex flex-col gap-5 md:px-16 lg:px-24 xl:px-32 mt-8">
-            {
-                events.map((event,key)=>(
-                    <EventCard key={key} title={event.title} time={event.time} period={event.period} description={event.description} />
-                ))
-            }
+          {events.map((event, key) => (
+            <EventCard
+              key={key}
+              title={event.title}
+              time={event.time}
+              period={event.period}
+              description={event.description}
+            />
+          ))}
         </div>
       </div>
     </section>
