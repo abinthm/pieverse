@@ -9,7 +9,7 @@ const EventCard = ({time,period, title, description}) => {
       </div>
       <div className='flex flex-col text-white'>
         <span className='text-xl md:text-2xl font-semibold'>{title}</span>
-        <span className='text-md md:text-lg'>{description}</span>
+        <span className='text-md font-light md:text-lg'>{description}</span>
       </div>
     </div>
   )

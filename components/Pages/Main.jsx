@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import React from "react";
 import Button from "../Button";
 import Image from "next/image";
+import { cn } from "@/lib/utils";
 const poppins = Poppins({ subsets: ["latin"], weight: "900" });
 
 const Main = () => {
@@ -18,7 +19,8 @@ const Main = () => {
           <span className="max-sm:hidden mx-2">|</span>
           <span className="max-sm:text-sm">Providence College, Chengannur</span>
         </h2>
-        <Button title={"Grab Your Ticket"} className={"px-4 mt-4"}>
+        <a className={cn('flex items-center gap-2 py-2 bg-primary text-secondary rounded-3xl font-bold hover:bg-primary/50 hover:text-white px-4 mt-4')} href="https://docs.google.com/forms/d/e/1FAIpQLScQihABsjtr_6ul80Fz2kPI3QWH7f8p2CZa7ZnnmL1qEjk22w/viewform">Grab Your Tickets</a>
+        {/* <Button title={"Grab Your Ticket"} className={"px-4 mt-4"}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -34,7 +36,7 @@ const Main = () => {
             />
           </svg>
           Grab Your Ticket
-        </Button>
+        </Button> */}
         {/* <div className="flex items-center gap-2 mt-4">
           <Image src={'/assets/organizers/pie.png'} width={200} height={150} />
           <Image src={'/assets/organizers/ikyp.png'} width={200} height={150} />
