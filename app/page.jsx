@@ -23,7 +23,6 @@ export default function Home() {
         <Footer/>
       </div>
       <div className="fixed left-0 top-0 h-screen w-full home-bg -z-10">
-
       </div>
       {/* <Image
         src={"/assets/bg.jpg"}
