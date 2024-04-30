@@ -10,7 +10,6 @@ html{
   font-family: 'mentra-font';
   src: url('../public/assets/fonts/MENTRA.otf') format('opentype');
 }
-
 .mentra-font {
   font-family: 'mentra-font', sans-serif;
 }

@@ -6,10 +6,10 @@ const Posters = () => {
   const images = [
     "/assets/posters/poster1.jpg",
     "/assets/posters/poster2.jpg",
-    "/assets/posters/poster1.jpg",
-    "/assets/posters/poster2.jpg",
-    "/assets/posters/poster1.jpg",
-    "/assets/posters/poster2.jpg",
+    "/assets/posters/poster3.jpg",
+    "/assets/posters/poster4.jpg",
+    "/assets/posters/poster5.jpg",
+    "/assets/posters/poster3.jpg",
   ];
 
   return (

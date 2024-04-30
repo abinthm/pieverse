@@ -10,7 +10,7 @@ const Schedule = () => {
       period: "AM",
     },
     {
-      title: "Inaugruation",
+      title: "Inauguration",
       description: "Witness the official start of PIEVERSE",
       time: "9:30",
       period: "AM",

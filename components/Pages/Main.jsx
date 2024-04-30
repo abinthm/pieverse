@@ -9,9 +9,39 @@ const Main = () => {
   return (
     <section
       id="home"
-      className={`h-screen w-full flex items-center justify-center px-4 pt-8 md:pt-16`}
+      className={`relative h-screen w-full flex flex-col items-center justify-center px-4 max-sm:pb-16`}
     >
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center py-2 text-center">
+        <Image src={"/assets/organizers/pie.png"} width={150} height={100} />
+        <h3 className="text-lg md:text-xl text-white">IN COLLABORATION WITH</h3>
+        <div className=" md:w-1/2 lg:w-2/5 flex justify-evenly items-center gap-2 mt-2 px-2 md:px-8">
+          <div className="flex-1">
+            <Image
+              src={"/assets/organizers/ikyp-white.svg"}
+              width={200}
+              height={150}
+              style={{ width: "100%" }}
+            />
+          </div>
+          <div className="flex-1">
+            <Image
+              src={"/assets/organizers/ieee-white.png"}
+              width={200}
+              height={150}
+              style={{ width: "100%" }}
+            />
+          </div>
+          <div className="flex-1">
+            <Image
+              src={"/assets/organizers/gdsc-white.svg"}
+              width={200}
+              height={150}
+              style={{ width: "100%" }}
+            />
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col items-center mt-2 md:mt-4">
         <h1
           className={`text-[55px] md:text-9xl font-extrabold text-primary text-with-stroke mentra-font tracking-wide`}
         >
@@ -23,36 +53,13 @@ const Main = () => {
           <span className="max-sm:text-sm">Providence College, Chengannur</span>
         </h2>
         <a
-          className={cn(
+          className={
             "flex items-center gap-2 py-2 bg-primary text-secondary rounded-3xl font-bold hover:bg-primary/50 hover:text-white px-4 mt-4"
-          )}
+          }
           href="https://docs.google.com/forms/d/e/1FAIpQLScQihABsjtr_6ul80Fz2kPI3QWH7f8p2CZa7ZnnmL1qEjk22w/viewform"
         >
           Grab Your Tickets
         </a>
-        {/* <Button title={"Grab Your Ticket"} className={"px-4 mt-4"}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 0 1 0 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 0 1 0-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375Z"
-            />
-          </svg>
-          Grab Your Ticket
-        </Button> */}
-        {/* TODO: */}
-        {/* <div className="flex items-center gap-2 mt-4 bg-black/50">
-          <Image src={"/assets/organizers/pie.png"} width={200} height={150} />
-          <Image src={"/assets/organizers/ikyp.png"} width={200} height={150} />
-          <Image src={"/assets/organizers/gdsc.png"} width={200} height={150} />
-        </div> */}
       </div>
     </section>
   );

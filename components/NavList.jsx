@@ -24,6 +24,7 @@ const NavList = () => {
           scrollPosition < sectionTop + sectionHeight
         ) {
           setActiveSection(section.id);
+          console.log("Section changed");
         }
       });
     };
