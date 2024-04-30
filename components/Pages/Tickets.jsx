@@ -2,7 +2,7 @@ import React from "react";
 
 const Tickets = () => {
   return (
-    <div className="w-full h-max p-5 md:p-8 xl:px-14">
+    <section id="ticket" className="w-full h-max p-5 md:p-8 xl:px-14">
       <div className=" w-full h-full flex flex-col items-center bg-violet-950/70 p-4 md:pt-8 shadow-md">
         <h1 className="flex gap-2 items-center text-4xl font-bold text-white">
           <svg
@@ -53,7 +53,7 @@ const Tickets = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

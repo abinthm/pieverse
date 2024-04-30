@@ -16,21 +16,27 @@ const Schedule = () => {
       period: "AM",
     },
     {
-      title: "Ice Breaker",
-      description: "Jump into it with loads of fun",
-      time: "11:00",
-      period: "AM",
-    },
-    {
       title: "Talk",
       description: "Have a blast with RJ Shambu",
-      time: "11:30",
+      time: "11:00",
       period: "AM",
     },
     {
       title: "Workshop",
       description: "Level yourself up a notch in your chosen track",
-      time: "1:30",
+      time: "12:00",
+      period: "PM",
+    },
+    {
+      title: "Ice Breaker",
+      description: "Jump into it with loads of fun",
+      time: "2:00",
+      period: "PM",
+    },
+    {
+      title: "Workshop",
+      description: "revitalize the workshop and get back into the flow",
+      time: "2:30",
       period: "PM",
     },
     {

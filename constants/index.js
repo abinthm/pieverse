@@ -12,6 +12,12 @@ export const NavbarLinks = [
         route: '#about'
     },
     {
+        imgUrl: '/assets/icons/upcoming.svg',
+        title: 'Ticket',
+        name: 'ticket',
+        route: '#ticket'
+    },
+    {
         imgUrl: '/assets/icons/previous.svg',
         title: 'Speakers',
         name: 'speakers',

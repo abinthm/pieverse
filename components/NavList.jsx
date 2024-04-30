@@ -12,31 +12,43 @@ const NavList = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = document.querySelectorAll("section"); // assuming sections have unique IDs
-      const scrollPosition = window.scrollY;
-
+      const sections = document.querySelectorAll("section");
+  
       sections.forEach((section) => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
-
-        if (
-          scrollPosition >= sectionTop &&
-          scrollPosition < sectionTop + sectionHeight
-        ) {
+  
+        const scrollPosition = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const windowBottom = scrollPosition + windowHeight;
+  
+        // Calculate the visible portion of the section
+        const visibleHeight = Math.min(
+          windowBottom,
+          sectionTop + sectionHeight
+        ) - Math.max(scrollPosition, sectionTop);
+  
+        // Calculate the percentage of section visibility
+        const visibilityPercentage = (visibleHeight / sectionHeight) * 100;
+  
+        // Set a threshold for visibility percentage (adjust as needed)
+        const visibilityThreshold = 50; // At least 50% visible
+  
+        if (visibilityPercentage >= visibilityThreshold) {
           setActiveSection(section.id);
           console.log("Section changed");
         }
       });
     };
-
+  
     window.addEventListener("scroll", handleScroll);
-
+  
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
-    <div className="flex items-center gap-5 lg:gap-16 max-sm:hidden">
+    <div className="flex items-center gap-4 lg:gap-16 max-sm:hidden">
       {NavbarLinks.map((link, key) => {
         return (
           <div
