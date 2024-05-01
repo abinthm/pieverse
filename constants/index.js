@@ -37,6 +37,8 @@ export const posters = [
     "/assets/posters/poster4.jpg",
     "/assets/posters/poster5.jpg",
     "/assets/posters/poster6.jpg",
+    "/assets/posters/poster7.jpg",
+    "/assets/posters/poster8.jpg",
   ];
 export const events = [
     {
@@ -92,5 +94,16 @@ export const events = [
         name: 'Ajay Basil Varghese',
         description: 'Startup Coach',
         imgURL: '/assets/speakers/ajay.jpg'
-    }
+    },
+    {
+      name: 'Karthik Narayanan',
+      description: 'Creative Head, Riglabs Collective',
+      imgURL: '/assets/speakers/karthik.jpg'
+    },
+    {
+      name: 'SR Nair',
+      description: 'Co-founder TiE:Kerala',
+      imgURL: '/assets/speakers/srnair.jpg'
+    },
+  
   ]

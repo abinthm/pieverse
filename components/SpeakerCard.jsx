@@ -3,7 +3,7 @@ import React from "react";
 
 const SpeakerCard = ({name,description,imgURL}) => {
   return (
-    <div className="size-72 flex flex-col relative">
+    <div className="size-72 flex flex-col relative bg-slate-300 p-2">
       <Image
         src={imgURL}
         width={400}

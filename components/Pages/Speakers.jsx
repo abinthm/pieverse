@@ -17,7 +17,7 @@ const Speakers = () => {
           Here are some of our speakers
         </h2>
         <hr className="border-2 border-primary w-24 mt-4" />
-        <div className="flex flex-col sm:flex-row p-4 mt-4 gap-6">
+        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center p-4 mt-4 gap-6">
           {
             speakers.map((speaker,key)=>(
               <SpeakerCard key={key} name={speaker.name} description={speaker.description} imgURL={speaker.imgURL} />
