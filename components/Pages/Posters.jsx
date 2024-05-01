@@ -9,7 +9,7 @@ const Posters = () => {
     "/assets/posters/poster3.jpg",
     "/assets/posters/poster4.jpg",
     "/assets/posters/poster5.jpg",
-    "/assets/posters/poster3.jpg",
+    "/assets/posters/poster6.jpg",
   ];
 
   return (

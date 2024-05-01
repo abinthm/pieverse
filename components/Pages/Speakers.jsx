@@ -33,7 +33,7 @@ const Speakers = () => {
             />
             <div className="w-full flex flex-col justify-center items-center h-20 bg-violet-950/50 absolute bottom-0 left-0">
               <h1 className="font-bold text-2xl text-white">RJ Shambu</h1>
-              <h2 className=" text-zinc-300">RJ at Red FM</h2>
+              <h2 className=" text-zinc-300">Radio Jockey</h2>
             </div>
           </div>
           <div className="size-72 bg-slate-300">
