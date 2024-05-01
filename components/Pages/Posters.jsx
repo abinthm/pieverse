@@ -1,16 +1,8 @@
 import React from "react";
 import ReactCarousel from "../ReactCarousel";
-import Image from "next/image";
+import { posters } from "@/constants";
 
 const Posters = () => {
-  const images = [
-    "/assets/posters/poster1.jpg",
-    "/assets/posters/poster2.jpg",
-    "/assets/posters/poster3.jpg",
-    "/assets/posters/poster4.jpg",
-    "/assets/posters/poster5.jpg",
-    "/assets/posters/poster6.jpg",
-  ];
 
   return (
     <section
@@ -26,7 +18,7 @@ const Posters = () => {
           <hr className="border-2 border-primary w-24 mt-4" />
         </div>
         <div className="w-full h-auto">
-          <ReactCarousel images={images} />
+          <ReactCarousel images={posters} />
         </div>
       </div>
     </section>
