@@ -60,27 +60,21 @@ export const events = [
       period: "AM",
     },
     {
-      title: "Workshop",
-      description: "Level yourself up a notch in your chosen track",
+      title: "Ice Breaker",
+      description: "Jump into it with loads of fun",
       time: "12:00",
       period: "PM",
     },
     {
-      title: "Ice Breaker",
-      description: "Jump into it with loads of fun",
-      time: "2:00",
-      period: "PM",
-    },
-    {
       title: "Workshop",
-      description: "revitalize the workshop and get back into the flow",
-      time: "2:30",
+      description: "Level yourself up a notch in your chosen track",
+      time: "01:00",
       period: "PM",
     },
     {
       title: "Feedback",
       description: "Partake through the end of an exhilarating day",
-      time: "4:15",
+      time: "4:00",
       period: "PM",
     },
   ];
