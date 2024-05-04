@@ -73,7 +73,7 @@ const About = () => {
           </div>
           <h2 className="text-4xl font-semibold mt-4">4 May, 2024</h2>
           <Counter />
-          <span className="text-white text-2xl mt-4 font-semibold">The <span className="text-primary">Festivities</span> have kicked off !</span>
+          <span className="text-white text-2xl mt-4 font-semibold">The <span className="text-primary text-center">Festivities</span> have kicked off !</span>
         </div>
       </div>
     </section>
