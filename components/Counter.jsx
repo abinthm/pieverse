@@ -7,16 +7,16 @@ const Counter = () => {
   const [secs, setsecs] = useState(0);
 
   const deadline = "May, 04, 2024";
-  const getTime = () => {
-    const time = Date.parse(deadline) - Date.now();
-    setdays(Math.floor(time / (1000 * 60 * 60 * 24)));
-    sethours(Math.floor((time / (1000 * 60 * 60)) % 24));
-    setmins(Math.floor((time / 1000 / 60) % 60));
-    setsecs(Math.floor((time / 1000) % 60));
-  };
+  // const getTime = () => {
+  //   const time = Date.parse(deadline) - Date.now();
+  //   setdays(Math.floor(time / (1000 * 60 * 60 * 24)));
+  //   sethours(Math.floor((time / (1000 * 60 * 60)) % 24));
+  //   setmins(Math.floor((time / 1000 / 60) % 60));
+  //   setsecs(Math.floor((time / 1000) % 60));
+  // };
   useEffect(() => {
-    const interval = setInterval(() => getTime(deadline), 1000);
-    return () => clearInterval(interval);
+    // const interval = setInterval(() => getTime(deadline), 1000);
+    // return () => clearInterval(interval);
   }, []);
 
   return (
