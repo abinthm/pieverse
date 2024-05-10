@@ -54,7 +54,7 @@ const NavList = () => {
           <div
             key={key}
             className={cn(
-              "flex items-center gap-1 pb-1 transition-all duration-300",
+              "flex items-center gap-1 pb-1 transition-all duration-300 xl:text-xl",
               {
                 "border-b-4 border-primary": activeSection===link.name,
               }

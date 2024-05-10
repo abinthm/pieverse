@@ -28,7 +28,7 @@ const Tickets = () => {
             in the business!
           </span>
         </div>
-        <div className="w-full flex flex-col md:flex-row p-4 gap-8 text-black">
+        <div className="w-full flex flex-col md:flex-row p-4 xl:px-8 gap-8 xl:gap-14 text-black">
           <div className="w-full h-max flex flex-col items-center bg-primary rounded-xl shadow-md p-4">
             <h2 className="font-semibold text-secondary">IEEE MEMBERS</h2>
             <h3 className="text-6xl">₹199</h3>

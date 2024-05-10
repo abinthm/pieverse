@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-between items-center px-4 sm:px-7 py-4 text-white bg-black/40 select-none fixed z-50">
+    <div className="w-full flex justify-between items-center px-4 sm:px-7 py-4 xl:py-8 text-white bg-black/40 select-none fixed z-50">
       <Image src={"/assets/logo/pieverse.svg"} width={100} height={100} alt="..." />
       <div className="flex items-center gap-16 sm:pt-4">
         <NavList />
