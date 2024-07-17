@@ -2,7 +2,6 @@ import React from "react";
 import NavList from "./NavList";
 import MobileNav from "./MobileNav";
 import Image from "next/image";
-import Button from "./Button";
 import { cn } from "@/lib/utils";
 
 const Navbar = () => {
